@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sty.learn.keyboard.edittext.MainActivity">
+
+    <com.sty.learn.keyboard.edittext.KeyboardEditText
+        android:id="@+id/et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:hint="点击打开键盘输入"
+        android:textSize="24sp"
+        app:random_keys="true"
+        app:xml="@xml/amount_input_keyboard"/>
+</RelativeLayout>
